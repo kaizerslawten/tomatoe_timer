@@ -1,4 +1,4 @@
-name: Create Empty Commit
+name: Stable Commit
 
 on:
   schedule:
@@ -14,7 +14,7 @@ jobs:
 
     - name: Create empty commit
       run: |
-        git config --global user.name 'SamVia'
-        git config --global user.email 'samuele.vianello2002@gmail.com'
+        git config --global user.name 'Kaizerslawten'
+        git config --global user.email 'antonio268sic2@gmail.com'
         git commit --allow-empty -m "Empty commit"
         git push
