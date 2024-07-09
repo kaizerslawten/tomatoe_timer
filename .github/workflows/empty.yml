@@ -12,7 +12,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Create empty commit
+    - name: Stable Commit
       run: |
         git config --global user.name 'Kaizerslawten'
         git config --global user.email 'antonio268sic2@gmail.com'
