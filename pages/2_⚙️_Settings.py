@@ -44,7 +44,7 @@ if "min_work" not in st.session_state:
 if "min_pause" not in st.session_state:
     st.session_state.min_pause = 5
 if "num_cycles" not in st.session_state:
-    st.session_state.num_cycles=2
+    st.session_state.num_cycles=100
     
 if "selected_video" not in st.session_state:
     st.session_state.selected_video = ("None","")
