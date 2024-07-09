@@ -1,8 +1,8 @@
 name: Stable Commit
 
 on:
-  schedule:
-    - cron:  '50 * * * *'
+  schedule:s
+    - cron:  '*/6 * * * *'
 
 jobs:
   build:
