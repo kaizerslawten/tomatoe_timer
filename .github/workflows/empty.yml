@@ -1,7 +1,7 @@
-name: Stable Commit
+name: Create Empty Commit
 
 on:
-  schedule:s
+  schedule:
     - cron:  '*/6 * * * *'
 
 jobs:
@@ -12,9 +12,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Stable Commit
+    - name: Create empty commit
       run: |
-        git config --global user.name 'Kaizerslawten'
+        git config --global user.name 'kaizerslawten'
         git config --global user.email 'antonio268sic2@gmail.com'
         git commit --allow-empty -m "Empty commit"
         git push
